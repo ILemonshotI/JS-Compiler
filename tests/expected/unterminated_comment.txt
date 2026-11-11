@@ -1,0 +1,14 @@
+--- Tokens Found ---
+Text: [var] -> Type: VAR (1:1)
+Text: [a] -> Type: IDENTIFIER (1:5)
+Text: [=] -> Type: ASSIGN (1:7)
+Text: [1] -> Type: INTEGER (1:9)
+Text: [;] -> Type: SEMICOLON (1:10)
+Text: [/* closed */] -> Type: MULTI_LINE_COMMENT (1:12)
+Text: [var] -> Type: VAR (2:1)
+Text: [b] -> Type: IDENTIFIER (2:5)
+Text: [=] -> Type: ASSIGN (2:7)
+Text: [2] -> Type: INTEGER (2:9)
+Text: [;] -> Type: SEMICOLON (2:10)
+--- Lexical Errors: 1 ---
+Error at 3:1 Unterminated multi-line comment

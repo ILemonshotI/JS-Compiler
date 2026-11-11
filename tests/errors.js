@@ -1,0 +1,13 @@
+var s = "abc
+var t = 5;
+var u = 'also not closed
+var bad = 3 @ 4;
+var n1 = 1__0;
+var n2 = 1_;
+var n3 = 0x;
+var n4 = 0b102;
+var n5 = 1.5n;
+var n6 = 3abc;
+var esc1 = "\x4G";
+var esc2 = '\u12';
+var ok = "this line is fine";

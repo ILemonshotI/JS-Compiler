@@ -1,0 +1,5 @@
+# keep test files with \n line endings on every machine, otherwise the
+# multi-line tokens print differently on windows and the tests get confusing
+*.js   text eol=lf
+*.txt  text eol=lf
+*.g4   text eol=lf

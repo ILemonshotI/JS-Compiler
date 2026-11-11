@@ -1,0 +1,22 @@
+--- Tokens Found ---
+Text: [var] -> Type: VAR (1:1)
+Text: [ok] -> Type: IDENTIFIER (1:5)
+Text: [=] -> Type: ASSIGN (1:8)
+Text: [`] -> Type: TEMPLATE_START (1:10)
+Text: [closed ] -> Type: TEMPLATE_STRING (1:11)
+Text: [${] -> Type: TEMPLATE_EXPR_START (1:18)
+Text: [1] -> Type: INTEGER (1:20)
+Text: [}] -> Type: TEMPLATE_EXPR_END (1:21)
+Text: [`] -> Type: TEMPLATE_END (1:22)
+Text: [;] -> Type: SEMICOLON (1:23)
+Text: [var] -> Type: VAR (2:1)
+Text: [t] -> Type: IDENTIFIER (2:5)
+Text: [=] -> Type: ASSIGN (2:7)
+Text: [`] -> Type: TEMPLATE_START (2:9)
+Text: [this template\nnever ends ] -> Type: TEMPLATE_STRING (2:10)
+Text: [${] -> Type: TEMPLATE_EXPR_START (3:12)
+Text: [x] -> Type: IDENTIFIER (3:14)
+Text: [}] -> Type: TEMPLATE_EXPR_END (3:15)
+Text: [\n] -> Type: TEMPLATE_STRING (3:16)
+--- Lexical Errors: 1 ---
+Error at 2:9 Unterminated template literal
